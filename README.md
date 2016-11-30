@@ -18,7 +18,7 @@ The `numIterations` variable ensures this while loop doesn't go on forever.
 
 ###Security Questions
 
-Work in the security_questions.js file.
+Work in the security_questions.js file. Make sure it's linked in `index.html`, and open `index.html` in your browser. 
 
 1. Create an array called `securityQuestions`. Each element of `securityQuestions` will be an object with two keys: `question` and `expectedAnswer`.
 
