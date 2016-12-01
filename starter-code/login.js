@@ -6,6 +6,6 @@ for (var numOfTries = 0; numOfTries < 3; numOfTries++) {
     enteredPassword = prompt("Let's try this again shall we?");
   } else {
     alert("Yipee you remembered!");
-    break;
+    return;
   }
 }

@@ -5,6 +5,6 @@ for (var i=0; i<securityQuestions.length; i++) {
   var userAnswer = prompt(securityQuestions[i].question).toLowerCase();
   if (userAnswer !== securityQuestions[i].expectedAnswer) {
     alert("Sorry, that is not correct.");
-    break;
+    return;
   }
 }
